@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #46618F;
+    color: #fff;
+    padding: 10px;
+    
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+nav {
+    margin-top: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.banner {
+    background-image: url('THIFANY NAO ME MANDA O BANNER.png');
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cliente {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #46618F;
+}
+.quem-representamos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.representante {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.empresa {
+    padding: 20px;
+}
+.contato {
+    background-color: #46618F;
+    padding: 20px;
+    text-align: center;
+}
+.contato img {
+    width: 30px;
+    margin: 0 5px;
+}
