@@ -1,22 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: #46618F;
 }
 header {
     background-color: #ffffff;
     color: #fff;
     padding: 10px;
+    display: flex;
+    
     
 }
+h1{
+    text-align: center;
+}
 header a{
+    
     text-decoration: none;
     color: #46618F;
+    margin-right: 200px;
+    margin-left: 100px;
 }
 header img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-right: 10px;
 }
 nav {
@@ -106,6 +114,7 @@ background-position-x: center;
     background-color: #000000;
     padding: 20px;
     text-align: center;
+ 
 }
 .contato img {
     width: 30px;
