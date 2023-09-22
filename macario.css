@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin-left: 8%;
-    margin-right: 8%;
+
     background-color: #46618F;
+ 
+ 
 }
 header {
 
@@ -11,7 +12,8 @@ header {
     padding: 1%;
     display: flex;
     font-size: large;
-    
+    margin-left: 8%;
+    margin-right: 8%;
 }
 h1{
     font-family: cursive;
@@ -26,7 +28,7 @@ header a{
     text-decoration: none;
     color: #46618F;
     margin-right: 9%;
-    margin-left: 9%;
+    margin-left: 8%;
     top: 20px;
 }
 header img {
@@ -53,7 +55,8 @@ nav ul li {
 
 .banner {
 
-
+    margin-left: 8%;
+    margin-right: 8%;
     height: 20%;
     text-align: center;
     color: #fff;
@@ -76,18 +79,25 @@ nav ul li {
     transform: scale(1.04);
  }
 .clientes {
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    background-image: url(macario3.jpeg);
+    
 }
+
+
 .cliente {
+  
     margin: 2%;
-    padding: 20px;
+    padding: 30px;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     height: 100%;
-   
+   justify-content: center;
+   text-align: center;
 
 }
 .cliente img{
@@ -106,17 +116,23 @@ nav ul li {
 
 
 .quem-representamos {
+    background: url(graficomacario.mp4);
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .representante {
     margin: 10px;
-    padding: 20px;
-    margin-right: 15%;
- 
-    width: 13%;
+    padding: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 18%;
     height: 14%;
+    justify-content: center;
+    text-align: center;
+    
 }
 .representante img{
     -webkit-filter: brightness(70%);
@@ -136,9 +152,13 @@ nav ul li {
 }
 .contato {
     background-color: #000000;
-    padding: 15%;
+    padding: 2%;
     text-align: center;
- 
+    height: 50%;
+    margin: 0;
+   
+    
+
 }
 .contato img {
     width: 30px;
@@ -147,6 +167,7 @@ nav ul li {
 }
 .contato h2{
     color: #ffffff;
+    background-color: #000000;
 }
 .contato p{
     color: #ffffff;
@@ -154,10 +175,13 @@ nav ul li {
 
 h2 {
     text-align: center;
-
   width: 350px;
   position: relative;
  right: 50%;
   left: 40%;
-
+    color: #000000;
+    background-color: #ffffff;
+  
 }
+
+
