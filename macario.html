@@ -8,20 +8,66 @@
 </head>
 <body>
     <header>
-        <img src="logotipo.png (2).png" alt="Logo da Macario Representações">
+        <img src="logotipo.png" alt="LogodaMacarioRepresentações">
        
         <nav>
             <ul>
-                <b><li> <h1>Macario Representações</h1></li></b>
+                <b><li><img src="nomemacario.jpeg"></li></b>
                 <b><li><a href="macario.html">Home</a></li></b>
                 <b><li><a href="quem-somos.html">Quem Somos</a></li></b>
             </ul>
         </nav>
     </header>
     
-    <div class="banner">
-<img src="Cópia de Banner.png">
-    </div>
+    <div class="carousel-container">
+        <div class="banner-container">
+          <div class="banner">
+            <img src="5.png">
+            <img src="6.png">
+            <img src="7.png">
+          </div>
+        </div>
+        <div class="radio-buttons">
+          <input type="radio" name="slide" class="radio-button" id="radio1" checked>
+          <label class="radio-label" for="radio1"></label>
+          <input type="radio" name="slide" class="radio-button" id="radio2">
+          <label class="radio-label" for="radio2"></label>
+          <input type="radio" name="slide" class="radio-button" id="radio3">
+          <label class="radio-label" for="radio3"></label>
+        </div>
+      </div>
+    
+      <script>
+        const banner = document.querySelector(".banner");
+        const bannerContainer = document.querySelector(".banner-container");
+        const images = banner.querySelectorAll("img");
+    
+      
+        const radioButtons = document.querySelectorAll(".radio-button");
+        radioButtons.forEach((radio, index) => {
+          radio.addEventListener("change", () => {
+            showSlide(index);
+          });
+        });
+    
+        function showSlide(slideIndex) {
+          const translateX = -slideIndex * 100;
+          banner.style.transform = `translateX(${translateX}%)`;
+    
+        
+          radioButtons[slideIndex].checked = true;
+        }
+    
+      
+        showSlide(0);
+    
+      
+        let currentSlide = 0;
+        setInterval(() => {
+          currentSlide = (currentSlide + 1) % images.length;
+          showSlide(currentSlide);
+        }, 3000);
+      </script>
 
 
      
@@ -30,24 +76,21 @@
         <h2>Nossos Clientes</h2>
         <div class="clientes">
             <div class="cliente">
-                <img src="carrefour.jpg" alt="carrefour" width="380" height="380" >
+                <img src="carrefour.jpg" alt="carrefour" width="200" height="200" >
            
-                <img src="sodimac.jpg" alt="sodimac" width="380" height="380">
+                <img src="sodimac.jpg" alt="sodimac" width="200" height="200">
         
-                <img src="via.jpg" alt="via"  width="380" height="380">
+                <img src="via.jpg" alt="via"  width="200" height="200">
 
-            </div>
-            
-            <div class="cliente">
-                <img src="telhanorte.png" alt="telhanorte" width="380" height="380">
-     
-                <img src="ccp.png" alt="ccp"  width="380" height="380">
       
-                <img src="bravium.png" alt="bravium" width="380" height="380">
+                <img src="telhanorte.png" alt="telhanorte" width="200" height="200">
+     
+                <img src="ccp.png" alt="ccp"  width="200" height="200">
+      
+                <img src="bravium.png" alt="bravium" width="200" height="200">
           </div>
             
         </div>
-
 
 
 
