@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-
+  font-family: 'Candara';font-size: 20px;
+  
     background-color: #ffffff;
  
  
@@ -95,15 +95,15 @@ h2 {
 
 .empresa img{
 
-
-
-    border: 2px solid #E45a00;
+    border: 2px solid #46618F
 }
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #46618F;
+    background-image: url(bannerempresa.png);
+    background-position: center;
+    object-fit: cover;
 }
 
 .box {
@@ -125,14 +125,16 @@ h2 {
 .box p {
     margin-top: 10px;
     color: #ffffff;
-   
+    font-family: 'Candara';font-size: 18px;
 }
 
 .certificados{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #46618F;
+  background-image: url(bannerempresa.png);
+  background-position: center;
+  object-fit: cover;
 }
 
 
@@ -149,7 +151,7 @@ h2 {
   margin-left: 1%;
   margin-top: 25px;
   text-align: center;
-  border: 2px solid #E45a00;
+  border: 2px solid #46618F;
   flex: 1;
   max-width: 50%;
   -webkit-transition: -webkit-transform .5s ease;

@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-
+    
+    font-family: 'Candara';font-size: 20px;
     background-color: #ffffff;
  
  
@@ -127,10 +127,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(macario3.jpeg);
+    background-color: #ffffff;
     background-position-x: center;
     background-position-y: center;
     overflow: hidden;
+    border: 1px solid #46618F;
   }
   
   .cliente {
@@ -142,19 +143,35 @@ body {
   }
   
   .cliente img {
-    -webkit-filter: brightness(70%);
+    -webkit-filter: brightness(100%);
     margin-right: 1%;
     margin-left: 1%;
     margin-top: 25px;
     text-align: center;
-    border: 2px solid #E45a00;
+    
     flex: 1;
     max-width: 33.33%;
     transition: filter 1s;
   }
+  .cliente {
+  transition: transform 0.5s ease-in-out;
+  }
+
+  .cliente img {
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+  }
+
+  .cliente img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+  }
   
   .cliente img:hover {
-    -webkit-filter: brightness(100%);
+    -webkit-filter: brightness(80%);
   }
 
 
@@ -180,16 +197,33 @@ body {
     
 }
 .representante img{
-    -webkit-filter: brightness(70%);
+    -webkit-filter: brightness(100%);
     margin-top: 90px;
-    border: 2px solid #E45a00;
+    border: 2px solid #46618F;
     text-align: center;
 }
 
 .representante:hover img{
-    -webkit-filter: brightness(100%);
+    -webkit-filter: brightness(80%);
     transition: 1s;
 }
+
+.representante {
+  transition: transform 0.5s ease-in-out;
+  }
+
+  .representante img {
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+  }
+
+  .representante img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+  }
 
 
 .empresa {
@@ -226,6 +260,7 @@ h2 {
   left: 40%;
     color: #000000;
     background-color: #ffffff;
+
   
 }
 
