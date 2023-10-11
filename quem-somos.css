@@ -1,64 +1,64 @@
 body {
-  font-family: 'Candara';font-size: 20px;
-  
-    background-color: #ffffff;
- 
- 
+  font-family: 'Candara';
+  font-size: 20px;
+  background-color: #ffffff;
+  margin: 0;
 }
+
 header {
-    font-size: larger;
-
-
-    background-color: #ffffff;
-    color: #000000; 
-    padding: 1%;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    border-bottom: 5px solid #46618F;
-  }
-
-  header img {
-    margin-left: 6%;
-    width: 10%;
-    height: auto; 
-    
-  }
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-  }
-
-  nav ul li {
-    margin-right: 20px;
-  }
-
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: #000000;
-    position:relative;
-    top: 80px;
-    right: 700px;
-    margin: 20px;
-    margin-right: 65px;
-  }
-nav ul img{
-width: 50%;
-height: 40%;
-justify-content: center;
-text-align: center;
-position: relative;
-right: 800px;
-top: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #46618F;
 }
+
+header img {
+  margin-left: 8%;
+  width: 10%;
+  height: auto;
+  max-width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+nav ul img {
+  width: 70%;
+  height: 60%;
+  max-width: 100%;
+  position: relative;
+  right: 80%;
+  
+}
+
+nav ul li {
+  
+  
+
+  margin-right: 20px;
+ 
+  align-items: flex-end;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  margin: 20px;
+  margin-right: 300px;
+}
+
+
 
 .contato {
     background-color: #000000;
@@ -111,6 +111,7 @@ h2 {
     text-align: center;
     margin: 10px;
     font-size: larger;
+    display: inline;
     
 }
 
@@ -171,5 +172,4 @@ h2 {
   color: #ffffff;
   font-size: large;
 }
-
 
