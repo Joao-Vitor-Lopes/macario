@@ -1,67 +1,69 @@
 body {
   font-family: 'Candara';
-  font-size: 20px;
+  font-size: 120%;
   background-color: #ffffff;
   margin: 0;
+  width: 100%; /* Defina um tamanho base para o corpo. */
 }
 
 header {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 5px solid #46618F;
+  padding: 10px 20px;
+  background-color: #fff; /* Cor de fundo do header */
+  border-bottom: 5px solid #46618F; /* Borda na parte inferior com a cor #46618F */
 }
 
+/* Estilo para o logotipo */
 header img {
-  margin-left: 8%;
-  width: 10%;
-  height: auto;
-  max-width: 100%;
+  width: 10%; /* Altura do logotipo */
+  margin-left: 7%;
 }
 
+/* Estilo para a lista de navegação */
 nav ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
   display: flex;
-  align-items: flex-end;
 }
 
-nav ul img {
-  width: 70%;
-  height: 60%;
-  max-width: 100%;
-  position: relative;
-  right: 80%;
-  
-}
-
+/* Estilo para os itens da lista de navegação */
 nav ul li {
-  
-  
-
   margin-right: 20px;
- 
-  align-items: flex-end;
+  
 }
 
-nav ul li:last-child {
-  margin-right: 0;
-}
-
+/* Estilo para os links na lista de navegação */
 nav ul li a {
   text-decoration: none;
-  color: #000000;
-  margin: 20px;
-  margin-right: 300px;
+  color: #46618F; /* Cor do texto dos links */
+  font-weight: bold;
+  position: relative;
+  top: 90%;
+  
+  
+
+}
+
+/* Estilo para o texto em negrito "Macario Representações" */
+nav ul li b {
+  margin-right: 100px;
+}
+
+/* Estilo para a imagem do nome "Macario Representações" */
+nav ul img {
+width: 40%;
+height: 30%;
+position: relative;
+right: 95%;
+
+
 }
 
 
 
 .contato {
-    background-color: #000000;
+    background-color: #46618F;
     padding: 2%;
     text-align: center;
     
@@ -80,12 +82,15 @@ nav ul li a {
 }
 
 h2 {
-    text-align: center;
-  width: 350px;
+  text-align: center;
+  width: 30%;
   position: relative;
- right: 50%;
-  left: 40%;
 
+  left: 35%;
+    color: #000000;
+
+
+  
 }
 .empresa {
     margin-left: 8%;
@@ -117,9 +122,9 @@ h2 {
 
 .box img {
     width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     height: auto;
-    margin-right: 80px;
+    margin-right: 8%;
   
 }
 
@@ -157,6 +162,8 @@ h2 {
   max-width: 50%;
   -webkit-transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
+  width: 80%;
+  height: 70%;
 }
 
 .certificado1 img:hover {

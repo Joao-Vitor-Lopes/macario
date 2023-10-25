@@ -1,11 +1,11 @@
 body {
   font-family: 'Candara';
-  font-size: 20px;
+  font-size: 120%;
   background-color: #ffffff;
   margin: 0;
   width: 100%; /* Defina um tamanho base para o corpo. */
 }
-
+/*
 header {
   background-color: #ffffff;
   color: #000000;
@@ -28,6 +28,8 @@ nav ul {
   padding: 0;
   display: flex;
   align-items: flex-end;
+
+
 }
 
 nav ul img {
@@ -35,7 +37,7 @@ nav ul img {
   height: 60%;
   max-width: 100%;
   position: relative;
-  right: 80%;
+  right: 230%;
   
 }
 
@@ -43,7 +45,10 @@ nav ul li {
   
   
 
-  margin-right: 20px;
+ position: relative;
+ right: 80%;
+ top: 20px;
+ 
  
   align-items: flex-end;
 }
@@ -52,11 +57,72 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
-nav ul li a {
+nav ul li a  {
+  
+  
   text-decoration: none;
   color: #000000;
-  margin: 20px;
-  margin-right: 300px;
+  
+ 
+  
+  
+}
+*/
+
+/* Estilo para o header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Cor de fundo do header */
+  border-bottom: 5px solid #46618F; /* Borda na parte inferior com a cor #46618F */
+}
+
+/* Estilo para o logotipo */
+header img {
+  width: 10%; /* Altura do logotipo */
+  margin-left: 7%;
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+/* Estilo para os itens da lista de navegação */
+nav ul li {
+  margin-right: 20px;
+  
+}
+
+/* Estilo para os links na lista de navegação */
+nav ul li a {
+  text-decoration: none;
+  color: #46618F; /* Cor do texto dos links */
+  font-weight: bold;
+  position: relative;
+  top: 90%;
+  
+  
+
+}
+
+/* Estilo para o texto em negrito "Macario Representações" */
+nav ul li b {
+  margin-right: 100px;
+}
+
+/* Estilo para a imagem do nome "Macario Representações" */
+nav ul img {
+width: 40%;
+height: 30%;
+position: relative;
+right: 95%;
+
+
 }
 
 
@@ -135,9 +201,12 @@ nav ul li a {
 .cliente {
   margin: 1%;
   padding: 2%; /* Use porcentagens em vez de um valor fixo. */
-  width: 31%; /* Use porcentagens em vez de um valor fixo. */
+  width: 40%;
+  height: 40%;
   display: flex;
-  overflow: hidden;
+  position: relative;
+  right: 20%;
+  
 }
 
 .cliente img {
@@ -177,13 +246,15 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 1%;
+
 }
 
 .representante {
-  margin: 2%; /* Use porcentagens em vez de um valor fixo. */
-  padding: 2%; /* Use porcentagens em vez de um valor fixo. */
-  width: 23%; /* Use porcentagens em vez de um valor fixo. */
-  height: 14%;
+  margin: 1%; /* Use porcentagens em vez de um valor fixo. */
+  padding: 1%; /* Use porcentagens em vez de um valor fixo. */
+  width: 20%; /* Use porcentagens em vez de um valor fixo. */
+  height: 5%;
   justify-content: center;
   text-align: center;
 }
@@ -193,6 +264,10 @@ nav ul li a {
   margin-top: 5%; /* Use porcentagens em vez de um valor fixo. */
   border: 2px solid #46618F;
   text-align: center;
+  margin: 1%; /* Use porcentagens em vez de um valor fixo. */
+  padding: 1%; /* Use porcentagens em vez de um valor fixo. */
+  width: 70%; /* Use porcentagens em vez de um valor fixo. */
+  
 }
 
 .representante:hover img {
@@ -216,7 +291,7 @@ nav ul li a {
 
 
 .contato {
-    background-color: #000000;
+    background-color: #46618F;
     padding: 2%;
     text-align: center;
     height: 50%;
@@ -232,20 +307,20 @@ nav ul li a {
 }
 .contato h2{
     color: #ffffff;
-    background-color: #000000;
+    background-color: #46618F;
 }
 .contato p{
     color: #ffffff;
 }
 
 h2 {
-    text-align: center;
-  width: 350px;
+  text-align: center;
+  width: 30%;
   position: relative;
- right: 50%;
-  left: 40%;
+
+  left: 35%;
     color: #000000;
-    background-color: #ffffff;
+
 
   
 }
