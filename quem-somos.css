@@ -125,13 +125,16 @@ h2 {
     max-width: 100%;
     height: auto;
     margin-right: 8%;
+  float: left;
   
 }
 
 .box p {
+   
     margin-top: 10px;
     color: #ffffff;
     font-family: 'Candara';font-size: 18px;
+
 }
 
 .certificados{

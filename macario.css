@@ -5,69 +5,6 @@ body {
   margin: 0;
   width: 100%; /* Defina um tamanho base para o corpo. */
 }
-/*
-header {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 1%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 5px solid #46618F;
-}
-
-header img {
-  margin-left: 8%;
-  width: 10%;
-  height: auto;
-  max-width: 100%;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  align-items: flex-end;
-
-
-}
-
-nav ul img {
-  width: 70%;
-  height: 60%;
-  max-width: 100%;
-  position: relative;
-  right: 230%;
-  
-}
-
-nav ul li {
-  
-  
-
- position: relative;
- right: 80%;
- top: 20px;
- 
- 
-  align-items: flex-end;
-}
-
-nav ul li:last-child {
-  margin-right: 0;
-}
-
-nav ul li a  {
-  
-  
-  text-decoration: none;
-  color: #000000;
-  
- 
-  
-  
-}
-*/
 
 /* Estilo para o header */
 
@@ -95,7 +32,6 @@ nav ul {
 /* Estilo para os itens da lista de navegação */
 nav ul li {
   margin-right: 20px;
-  
 }
 
 /* Estilo para os links na lista de navegação */
