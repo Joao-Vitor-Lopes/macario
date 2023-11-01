@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Candara';
   font-size: 120%;
@@ -271,3 +272,169 @@ h2 {
   z-index: -1;
   object-fit: cover;
 }
+@media  screen and (min-width: 1602) and (max-width: 1920px) {
+  header img {
+    width: 10%;
+    margin-left: 6%;
+  }
+
+  nav ul li b {
+    margin-right: 50px;
+  }
+
+  nav ul img {
+    width: 40%;
+    height: 30%;
+    right: 95%;
+  }
+}
+
+
+
+
+/* Estilos para telas maiores que 768px */
+@media (min-width: 769) and (max-width: 1601px) {
+  body {
+    
+  }
+  header img {
+    width: 8%;
+    margin-left: 6%;
+  }
+
+  nav ul li b {
+    margin-right: 50px;
+  }
+
+  nav ul img {
+    width: 30%;
+    height: 15%;
+    right: 10%;
+  }
+
+  .banner-container {
+    margin-top: 5%;
+  }
+
+  .carousel-container {
+  
+  }
+
+  .clientes {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .cliente {
+    width: 30%;
+    height: 30%;
+    right: 10%;
+  }
+
+  .representante {
+    width: 25%;
+    height: 8%;
+  }
+
+  h2 {
+    left: 32%;
+  }
+}
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px){
+  header img {
+    width: 15%;
+    margin-left: 3%;
+  }
+
+  nav ul li b {
+    margin-right: 20px;
+  }
+
+  nav ul img {
+    width: 30%;
+    height: 25%;
+    right: 70%;
+  }
+
+  .banner-container {
+    margin-top: 8%;
+  }
+
+  .carousel-container {
+    /* Estilos adicionais para telas menores aqui */
+  }
+
+  .clientes {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .cliente {
+    width: 45%;
+    height: 45%;
+    right: 5%;
+  }
+
+  .representante {
+    width: 40%;
+    height: 12%;
+  }
+
+  h2 {
+    left: 30%;
+  }
+}
+
+/* Estilos para telas menores que 480px (por exemplo, smartphones) */
+@media screen and (max-width: 480px) {
+  header img {
+    width: 20%;
+    margin-left: 3%;
+  }
+
+  nav ul li b {
+    margin-right: 10px;
+  }
+
+  nav ul img {
+    width: 40%;
+    height: 35%;
+    right: 80%;
+  }
+
+  .banner-container {
+    margin-top: 10%;
+  }
+
+  .carousel-container {
+    /* Estilos adicionais para telas pequenas aqui */
+  }
+
+  .clientes {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .cliente {
+    width: 90%;
+    height: 90%;
+    right: 0;
+  }
+
+  .representante {
+    width: 80%;
+    height: 20%;
+  }
+
+  h2 {
+    left: 25%;
+  }
+}
+
+
+
+
+
+
