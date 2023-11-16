@@ -6,6 +6,7 @@ body {
   width: 100%; /* Defina um tamanho base para o corpo. */
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -52,14 +53,13 @@ nav ul li b {
 
 /* Estilo para a imagem do nome "Macario Representações" */
 nav ul img {
-width: 40%;
+width: 30%;
 height: 30%;
 position: relative;
-right: 95%;
+right: 55%;
 
 
 }
-
 
 
 .contato {
@@ -106,7 +106,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-image: url(bannerempresa.png);
+    background-image: url(imagens/bannerempresa.png);
     background-position: center;
     object-fit: cover;
 }
@@ -138,7 +138,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url(bannerempresa.png);
+  background-image: url(imagens/bannerempresa.png);
   background-position: center;
   object-fit: cover;
 }
@@ -180,3 +180,27 @@ h2 {
   font-size: large;
 }
 
+.final{
+
+  text-align: center;
+  font-size: 15px;
+}
+
+.aqui {
+  display: inline-block;
+  padding: 9px 20px; /* Aumentei o espaçamento superior para mover o texto para baixo */
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  border-radius: 25px;
+  color: #3498db;
+  background-color: #fff;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.aqui:hover {
+  color: #fff;
+  background-color: #3498db;
+}

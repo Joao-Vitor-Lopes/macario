@@ -8,14 +8,14 @@
 </head>
 <body>
   <header>
-    <img src="logotipo.png" alt="LogodaMacarioRepresentações">
+    <img src="imagens/logotipo.png" alt="LogodaMacarioRepresentações">
    
     <nav>
         <ul>
-            <img src="nomemacario.jpeg">
+            <img src="imagens/nomemacario.jpeg">
             <li><a href="macario.html"><b>Home</b></a></li>
-            
             <li><a  href="quem-somos.html"><b>Quem Somos</b></a></li>
+            <li> <a href="contato.html"><b>Contato</b></a></li>
         </ul>
     </nav>
 </header>
@@ -23,9 +23,9 @@
     <div class="carousel-container">
         <div class="banner-container">
           <div class="banner">
-            <img src="5.png">
-            <img src="6.png">
-            <img src="7.png">
+            <img src="imagens/5.png">
+            <img src="imagens/6.png">
+            <img src="imagens/7.png">
           </div>
         </div>
         <div class="radio-buttons">
@@ -34,41 +34,11 @@
           <input type="radio" name="slide" class="radio-button" id="radio2">
           <label class="radio-label" for="radio2"></label>
           <input type="radio" name="slide" class="radio-button" id="radio3">
-          <label class="radio-label" for="radio3"></label>
+          <label class="radio-label" for="radio3"></label> 
         </div>
       </div>
     
-      <script>
-        const banner = document.querySelector(".banner");
-        const bannerContainer = document.querySelector(".banner-container");
-        const images = banner.querySelectorAll("img");
-    
-      
-        const radioButtons = document.querySelectorAll(".radio-button");
-        radioButtons.forEach((radio, index) => {
-          radio.addEventListener("change", () => {
-            showSlide(index);
-          });
-        });
-    
-        function showSlide(slideIndex) {
-          const translateX = -slideIndex * 100;
-          banner.style.transform = `translateX(${translateX}%)`;
-    
-        
-          radioButtons[slideIndex].checked = true;
-        }
-    
-      
-        showSlide(0);
-    
-      
-        let currentSlide = 0;
-        setInterval(() => {
-          currentSlide = (currentSlide + 1) % images.length;
-          showSlide(currentSlide);
-        }, 3000);
-      </script>
+
 
 
      
@@ -77,18 +47,18 @@
       <h2>Empresas Com Qual Trabalhamos</h2>
         <div class="clientes">
             <div class="cliente">
-                <img src="carrefour.jpg" alt="carrefour">
+                <img src="imagens/carrefour.jpg" alt="carrefour">
           
-                <img src="sodimac.jpg" alt="sodimac">
+                <img src="imagens/sodimac.jpg" alt="sodimac">
         
-                <img src="via.jpg" alt="via">
+                <img src="imagens/via.jpg" alt="via">
 
       
-                <img src="telhanorte.png" alt="telhanorte">
+                <img src="imagens/telhanorte.png" alt="telhanorte">
      
-                <img src="ccp.png" alt="ccp">
+                <img src="imagens/ccp.png" alt="ccp">
       
-                <img src="bravium.png" alt="bravium">
+                <img src="imagens/bravium.png" alt="bravium">
           </div>
    
         </div>
@@ -109,14 +79,14 @@
         Seu navegador não suporta vídeos HTML5.
     </video>
         <div class="representante">
-        <img src="suggar.png" alt="suggar"> 
+        <img src="imagens/suggar.png" alt="suggar"> 
         </div>
         <div class="representante">
-            <img src="presto.png" alt="presto">
+            <img src="imagens/presto.png" alt="presto">
         </div>
         
         <div class="representante">
-        <img src="botafogo.png" alt="botafogo">
+        <img src="imagens/botafogo.png" alt="botafogo">
   
         </div>   
     
@@ -129,9 +99,43 @@
     
     <div class="contato">
         <h2>Fale Conosco</h2>
-       <b> <p>Email: seuemail@gmail.com</p></b>
-        <b><a href="https://www.instagram.com/macario_representante/"><p><img src="instagram.png" alt="Instagram"></a>Instagram: @macario_representante</p></b>
-        <b><p>Telefone: (11) 1234-5678</p></b>
+       <b><p>Para contato:</p></b>
+       <p class="texto-aqui"><a href="contato.html"><button class="aqui">AQUI</p></button></a>
+
     </div>
+
+    <p class="final">&copy;Escritório Macario Representações </p>
+
+    <script>
+      const banner = document.querySelector(".banner");
+      const bannerContainer = document.querySelector(".banner-container");
+      const images = banner.querySelectorAll("img");
+  
+    
+      const radioButtons = document.querySelectorAll(".radio-button");
+      radioButtons.forEach((radio, index) => {
+        radio.addEventListener("change", () => {
+          showSlide(index);
+        });
+      });
+  
+      function showSlide(slideIndex) {
+        const translateX = -slideIndex * 100;
+        banner.style.transform = `translateX(${translateX}%)`;
+  
+      
+        radioButtons[slideIndex].checked = true;
+      }
+  
+    
+      showSlide(0);
+  
+    
+      let currentSlide = 0;
+      setInterval(() => {
+        currentSlide = (currentSlide + 1) % images.length;
+        showSlide(currentSlide);
+      }, 3000);
+    </script>
 </body>
 </html>

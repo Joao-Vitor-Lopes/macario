@@ -1,0 +1,87 @@
+body {
+    font-family: 'Candara';
+    font-size: 120%;
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%; /* Defina um tamanho base para o corpo. */
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Cor de fundo do header */
+    border-bottom: 5px solid #46618F; /* Borda na parte inferior com a cor #46618F */
+  }
+  
+  /* Estilo para o logotipo */
+  header img {
+    width: 10%; /* Altura do logotipo */
+    margin-left: 7%;
+  }
+  
+  /* Estilo para a lista de navegação */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  /* Estilo para os itens da lista de navegação */
+  nav ul li {
+    margin-right: 20px;
+    
+  }
+  
+  /* Estilo para os links na lista de navegação */
+  nav ul li a {
+    text-decoration: none;
+    color: #46618F; /* Cor do texto dos links */
+    font-weight: bold;
+    position: relative;
+    top: 90%;
+    
+    
+  
+  }
+  
+  /* Estilo para o texto em negrito "Macario Representações" */
+  nav ul li b {
+    margin-right: 100px;
+  }
+  
+  /* Estilo para a imagem do nome "Macario Representações" */
+  nav ul img {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  right: 55%;
+  
+  
+  }
+  .final{
+
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .banner-contato {
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 20%;
+    position: relative;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+ 
+  }
