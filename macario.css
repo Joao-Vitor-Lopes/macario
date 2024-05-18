@@ -26,11 +26,12 @@ header img {
 nav ul {
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
 }
 
 /* Estilo para os itens da lista de navegação */
 nav ul li {
-  margin-right: 20px;
+ 
   
 }
 
@@ -56,7 +57,7 @@ nav ul img {
 width: 30%;
 height: 30%;
 position: relative;
-right: 55%;
+right: 30%;
 
 
 }
@@ -65,7 +66,7 @@ right: 55%;
 
 
 
-
+/*projects container*/
 .banner-container {
   margin-top: 3%;
   margin-left: 8%;
@@ -74,7 +75,7 @@ right: 55%;
   overflow: hidden;
   position: relative;
 }
-
+/*image-project*/
 .banner {
   width: 100%;
   height: 100%;
@@ -93,7 +94,7 @@ right: 55%;
   -webkit-transform: scale(1.04);
   transform: scale(1.04);
 }
-
+/*personal-projects*/
 .carousel-container {
   position: relative;
 }
